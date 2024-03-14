@@ -20,7 +20,7 @@ export const OneTimeLoanPayment: React.FC = () => {
     typeOfAccount: "checking",
     cardNumber: 0,
     nameOnCard: "",
-    expirationDate: "",
+    expirationDate: new Date(),
     cvv: 0,
   });
 
