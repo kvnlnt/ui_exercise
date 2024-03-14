@@ -1,0 +1,31 @@
+/* src/main.css */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family:
+    Roboto,
+    Arial,
+    sans-serif;
+  width: 100%;
+}
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+input:focus {
+  outline: none;
+  border-left: 1px solid #000;
+}
+/*# sourceMappingURL=main.css.map */

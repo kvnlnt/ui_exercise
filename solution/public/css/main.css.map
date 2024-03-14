@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../src/main.css"],
+  "sourcesContent": ["*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\nhtml,\nbody,\n#root {\n  margin: 0;\n  padding: 0;\n  height: 100%;\n  font-family: Roboto, Arial, sans-serif;\n  width: 100%;\n}\n\n/* For Chrome, Safari, Edge, and Opera */\ninput[type=\"number\"]::-webkit-outer-spin-button,\ninput[type=\"number\"]::-webkit-inner-spin-button {\n  -webkit-appearance: none;\n  margin: 0;\n}\n\n/* For Firefox */\ninput[type=\"number\"] {\n  -moz-appearance: textfield;\n}\n\ninput:focus {\n  outline: none;\n  border-left: 1px solid #000;\n}\n"],
+  "mappings": ";AAAA;AACA,CAAC;AACD,CAAC;AACC,cAAY;AACd;AAEA;AACA;AACA,CAAC;AACC,UAAQ;AACR,WAAS;AACT,UAAQ;AACR;AAAA,IAAa,MAAM;AAAA,IAAE,KAAK;AAAA,IAAE;AAC5B,SAAO;AACT;AAGA,KAAK,CAAC,YAAc;AACpB,KAAK,CAAC,YAAc;AAClB,sBAAoB;AACpB,UAAQ;AACV;AAGA,KAAK,CAAC;AACJ,mBAAiB;AACnB;AAEA,KAAK;AACH,WAAS;AACT,eAAa,IAAI,MAAM;AACzB;",
+  "names": []
+}

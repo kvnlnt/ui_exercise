@@ -1,0 +1,31 @@
+{
+  "name": "ui_exercise",
+  "version": "1.0.0",
+  "description": "Kevin Lint's OneMain UI Exercise Submission",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "dev": "pnpm run \"/dev:/\"",
+    "dev:js": "npx esbuild ./src/main.tsx --outdir=public/js --bundle --sourcemap --watch",
+    "dev:css": "npx esbuild ./src/main.css --outdir=public/css --bundle --sourcemap --watch",
+    "start": "pnpm run \"/start:/\" && sirv public",
+    "start:js": "npx esbuild ./src/main.tsx --outdir=public/js --bundle --sourcemap --minify",
+    "start:css": "npx esbuild ./src/main.css --outdir=public/css --bundle --sourcemap --minify"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^18.2.65",
+    "@types/react-dom": "^18.2.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.51.0",
+    "usehooks-ts": "^3.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.1",
+    "pnpm": "^8.15.4",
+    "sirv-cli": "^2.0.2",
+    "typescript": "^5.4.2"
+  }
+}
